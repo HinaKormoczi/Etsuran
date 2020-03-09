@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Etsuran_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="I2i-2D-Xwf">
+                            <items>
+                                <table alignment="left" id="PIU-fq-nbh">
+                                    <items>
+                                        <tableRow identifier="LabelRow" id="bOL-Nz-OiV" customClass="LabelRowController" customModule="Etsuran_WatchKit_Extension">
+                                            <group key="rootItem" width="1" height="0.0" alignment="left" id="6Cl-GO-yj0">
+                                                <items>
+                                                    <label alignment="left" text="Label" numberOfLines="0" id="5zG-bO-qgW"/>
+                                                </items>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            </group>
+                                            <connections>
+                                                <outlet property="watchLabel" destination="5zG-bO-qgW" id="ks6-n8-1dz"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="webViewGroup" destination="I2i-2D-Xwf" id="4aJ-bO-guU"/>
+                        <outlet property="webViewTable" destination="PIU-fq-nbh" id="Bs2-ML-2A8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+    </scenes>
+</document>

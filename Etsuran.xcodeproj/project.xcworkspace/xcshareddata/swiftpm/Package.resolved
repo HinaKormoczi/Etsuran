@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "b02c4ee7f1659090f7ac543c022f922beeb04bc6",
+          "version": "5.0.2"
+        }
+      },
+      {
+        "package": "SwiftSoup",
+        "repositoryURL": "https://github.com/scinfu/SwiftSoup.git",
+        "state": {
+          "branch": null,
+          "revision": "7f187fd8804e63dea89879c95d7c2f7703727d0f",
+          "version": "2.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

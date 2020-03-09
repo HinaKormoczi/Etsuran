@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8435B7FF24166958001491A6 /* Etsuran WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8435B7FE24166958001491A6 /* Etsuran WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8435B80524166958001491A6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435B80324166958001491A6 /* Interface.storyboard */; };
+		8435B8072416695C001491A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8435B8062416695C001491A6 /* Assets.xcassets */; };
+		8435B80E2416695C001491A6 /* Etsuran WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8435B80D2416695C001491A6 /* Etsuran WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8435B8132416695C001491A6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B8122416695C001491A6 /* InterfaceController.swift */; };
+		8435B8152416695C001491A6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B8142416695C001491A6 /* ExtensionDelegate.swift */; };
+		8435B8172416695D001491A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8435B8162416695D001491A6 /* Assets.xcassets */; };
+		848706F924166989000A92CE /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848706F824166989000A92CE /* Keyboard.swift */; };
+		84CAB353241675FC00219DB0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 84CAB352241675FC00219DB0 /* Alamofire */; };
+		84CAB3552416761A00219DB0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 84CAB3542416761A00219DB0 /* Alamofire */; };
+		84CAB3572416762200219DB0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 84CAB3562416762200219DB0 /* Alamofire */; };
+		84CAB35A241679F400219DB0 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 84CAB359241679F400219DB0 /* SwiftSoup */; };
+		84CAB35C24167A0000219DB0 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 84CAB35B24167A0000219DB0 /* SwiftSoup */; };
+		84CAB35E24167A0800219DB0 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 84CAB35D24167A0800219DB0 /* SwiftSoup */; };
+		84CAB36024167F1D00219DB0 /* LabelRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAB35F24167F1D00219DB0 /* LabelRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8435B80024166958001491A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8435B7F424166958001491A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8435B7FD24166958001491A6;
+			remoteInfo = "Etsuran WatchKit App";
+		};
+		8435B80F2416695C001491A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8435B7F424166958001491A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8435B80C2416695C001491A6;
+			remoteInfo = "Etsuran WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8435B81E2416695D001491A6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8435B80E2416695C001491A6 /* Etsuran WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435B8222416695D001491A6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8435B7FF24166958001491A6 /* Etsuran WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8435B7FA24166958001491A6 /* Etsuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etsuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435B7FE24166958001491A6 /* Etsuran WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Etsuran WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435B80424166958001491A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8435B8062416695C001491A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8435B8082416695C001491A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8435B80D2416695C001491A6 /* Etsuran WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Etsuran WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435B8122416695C001491A6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8435B8142416695C001491A6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8435B8162416695D001491A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8435B8182416695D001491A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848706F824166989000A92CE /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		84CAB35F24167F1D00219DB0 /* LabelRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8435B80A2416695C001491A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CAB3572416762200219DB0 /* Alamofire in Frameworks */,
+				84CAB35E24167A0800219DB0 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D47EB40F83E53BFC8DCD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CAB3552416761A00219DB0 /* Alamofire in Frameworks */,
+				84CAB35C24167A0000219DB0 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E684A6D4BC90DDE245542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CAB353241675FC00219DB0 /* Alamofire in Frameworks */,
+				84CAB35A241679F400219DB0 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8435B7F324166958001491A6 = {
+			isa = PBXGroup;
+			children = (
+				8435B80224166958001491A6 /* Etsuran WatchKit App */,
+				8435B8112416695C001491A6 /* Etsuran WatchKit Extension */,
+				8435B7FB24166958001491A6 /* Products */,
+				CF5C3BDC293E30BD14259C9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8435B7FB24166958001491A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8435B7FA24166958001491A6 /* Etsuran.app */,
+				8435B7FE24166958001491A6 /* Etsuran WatchKit App.app */,
+				8435B80D2416695C001491A6 /* Etsuran WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8435B80224166958001491A6 /* Etsuran WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8435B80324166958001491A6 /* Interface.storyboard */,
+				8435B8062416695C001491A6 /* Assets.xcassets */,
+				8435B8082416695C001491A6 /* Info.plist */,
+			);
+			path = "Etsuran WatchKit App";
+			sourceTree = "<group>";
+		};
+		8435B8112416695C001491A6 /* Etsuran WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8435B8122416695C001491A6 /* InterfaceController.swift */,
+				8435B8142416695C001491A6 /* ExtensionDelegate.swift */,
+				848706F824166989000A92CE /* Keyboard.swift */,
+				8435B8162416695D001491A6 /* Assets.xcassets */,
+				8435B8182416695D001491A6 /* Info.plist */,
+				84CAB35F24167F1D00219DB0 /* LabelRowController.swift */,
+			);
+			path = "Etsuran WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CF5C3BDC293E30BD14259C9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8435B7F924166958001491A6 /* Etsuran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8435B8232416695D001491A6 /* Build configuration list for PBXNativeTarget "Etsuran" */;
+			buildPhases = (
+				8435B7F824166958001491A6 /* Resources */,
+				8435B8222416695D001491A6 /* Embed Watch Content */,
+				FF1E684A6D4BC90DDE245542 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8435B80124166958001491A6 /* PBXTargetDependency */,
+			);
+			name = Etsuran;
+			packageProductDependencies = (
+				84CAB352241675FC00219DB0 /* Alamofire */,
+				84CAB359241679F400219DB0 /* SwiftSoup */,
+			);
+			productName = Etsuran;
+			productReference = 8435B7FA24166958001491A6 /* Etsuran.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8435B7FD24166958001491A6 /* Etsuran WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8435B81F2416695D001491A6 /* Build configuration list for PBXNativeTarget "Etsuran WatchKit App" */;
+			buildPhases = (
+				8435B7FC24166958001491A6 /* Resources */,
+				8435B81E2416695D001491A6 /* Embed App Extensions */,
+				C1D47EB40F83E53BFC8DCD73 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8435B8102416695C001491A6 /* PBXTargetDependency */,
+			);
+			name = "Etsuran WatchKit App";
+			packageProductDependencies = (
+				84CAB3542416761A00219DB0 /* Alamofire */,
+				84CAB35B24167A0000219DB0 /* SwiftSoup */,
+			);
+			productName = "Etsuran WatchKit App";
+			productReference = 8435B7FE24166958001491A6 /* Etsuran WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8435B80C2416695C001491A6 /* Etsuran WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8435B81B2416695D001491A6 /* Build configuration list for PBXNativeTarget "Etsuran WatchKit Extension" */;
+			buildPhases = (
+				8435B8092416695C001491A6 /* Sources */,
+				8435B80A2416695C001491A6 /* Frameworks */,
+				8435B80B2416695C001491A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Etsuran WatchKit Extension";
+			packageProductDependencies = (
+				84CAB3562416762200219DB0 /* Alamofire */,
+				84CAB35D24167A0800219DB0 /* SwiftSoup */,
+			);
+			productName = "Etsuran WatchKit Extension";
+			productReference = 8435B80D2416695C001491A6 /* Etsuran WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8435B7F424166958001491A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hina Kormoczi";
+				TargetAttributes = {
+					8435B7F924166958001491A6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8435B7FD24166958001491A6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8435B80C2416695C001491A6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8435B7F724166958001491A6 /* Build configuration list for PBXProject "Etsuran" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8435B7F324166958001491A6;
+			packageReferences = (
+				84CAB351241675FC00219DB0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				84CAB358241679F400219DB0 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 8435B7FB24166958001491A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8435B7F924166958001491A6 /* Etsuran */,
+				8435B7FD24166958001491A6 /* Etsuran WatchKit App */,
+				8435B80C2416695C001491A6 /* Etsuran WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8435B7F824166958001491A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435B7FC24166958001491A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435B8072416695C001491A6 /* Assets.xcassets in Resources */,
+				8435B80524166958001491A6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8435B80B2416695C001491A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435B8172416695D001491A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8435B8092416695C001491A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435B8152416695C001491A6 /* ExtensionDelegate.swift in Sources */,
+				848706F924166989000A92CE /* Keyboard.swift in Sources */,
+				8435B8132416695C001491A6 /* InterfaceController.swift in Sources */,
+				84CAB36024167F1D00219DB0 /* LabelRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8435B80124166958001491A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8435B7FD24166958001491A6 /* Etsuran WatchKit App */;
+			targetProxy = 8435B80024166958001491A6 /* PBXContainerItemProxy */;
+		};
+		8435B8102416695C001491A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8435B80C2416695C001491A6 /* Etsuran WatchKit Extension */;
+			targetProxy = 8435B80F2416695C001491A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8435B80324166958001491A6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8435B80424166958001491A6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8435B8192416695D001491A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8435B81A2416695D001491A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8435B81C2416695D001491A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGNZ72VCU3;
+				INFOPLIST_FILE = "Etsuran WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinaKormoczi.Etsuran.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8435B81D2416695D001491A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGNZ72VCU3;
+				INFOPLIST_FILE = "Etsuran WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinaKormoczi.Etsuran.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		8435B8202416695D001491A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGNZ72VCU3;
+				IBSC_MODULE = Etsuran_WatchKit_Extension;
+				INFOPLIST_FILE = "Etsuran WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinaKormoczi.Etsuran.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8435B8212416695D001491A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGNZ72VCU3;
+				IBSC_MODULE = Etsuran_WatchKit_Extension;
+				INFOPLIST_FILE = "Etsuran WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinaKormoczi.Etsuran.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		8435B8242416695D001491A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XGNZ72VCU3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinaKormoczi.Etsuran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8435B8252416695D001491A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XGNZ72VCU3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinaKormoczi.Etsuran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8435B7F724166958001491A6 /* Build configuration list for PBXProject "Etsuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435B8192416695D001491A6 /* Debug */,
+				8435B81A2416695D001491A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8435B81B2416695D001491A6 /* Build configuration list for PBXNativeTarget "Etsuran WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435B81C2416695D001491A6 /* Debug */,
+				8435B81D2416695D001491A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8435B81F2416695D001491A6 /* Build configuration list for PBXNativeTarget "Etsuran WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435B8202416695D001491A6 /* Debug */,
+				8435B8212416695D001491A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8435B8232416695D001491A6 /* Build configuration list for PBXNativeTarget "Etsuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435B8242416695D001491A6 /* Debug */,
+				8435B8252416695D001491A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84CAB351241675FC00219DB0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		84CAB358241679F400219DB0 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84CAB352241675FC00219DB0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CAB351241675FC00219DB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		84CAB3542416761A00219DB0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CAB351241675FC00219DB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		84CAB3562416762200219DB0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CAB351241675FC00219DB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		84CAB359241679F400219DB0 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CAB358241679F400219DB0 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		84CAB35B24167A0000219DB0 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CAB358241679F400219DB0 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		84CAB35D24167A0800219DB0 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CAB358241679F400219DB0 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8435B7F424166958001491A6 /* Project object */;
+}
